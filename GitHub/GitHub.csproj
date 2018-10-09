@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201810091047401_overidegigandgenre.Designer.cs">
       <DependentUpon>201810091047401_overidegigandgenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810091054472_POPLATEGENRESTABLE.cs" />
+    <Compile Include="Migrations\201810091054472_POPLATEGENRESTABLE.Designer.cs">
+      <DependentUpon>201810091054472_POPLATEGENRESTABLE.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -307,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810091047401_overidegigandgenre.resx">
       <DependentUpon>201810091047401_overidegigandgenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810091054472_POPLATEGENRESTABLE.resx">
+      <DependentUpon>201810091054472_POPLATEGENRESTABLE.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
